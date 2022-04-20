@@ -1,1 +1,4 @@
-#Adpot Me
+# Adpot Me
+
+## Dictionary 
+CND - constent delivery network 
