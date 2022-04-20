@@ -1,4 +1,13 @@
 .vscode
 .idea
-node_modules
+
 .history
+
+node_modules
+
+.parcel-cache
+dist
+.env
+coverage
+
+.DS_Store
