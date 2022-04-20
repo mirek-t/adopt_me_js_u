@@ -8,4 +8,14 @@ transpilator - e.g. Babel. Typescript, transpilation === transformation and comp
 ## Tools
 
 - Prettier - code formatter [Link](https://www.npmjs.com/package/prettier)
--
+- Linter (ESLint) - static code analyzer with guideline (Airbnb) [Link](https://www.npmjs.com/package/eslint)
+- Module Bundler (Webpack, Parcel)
+
+## Snippets
+
+```bash
+
+npm
+# npm view <package_name> version
+# npm view <package_name> versions
+```

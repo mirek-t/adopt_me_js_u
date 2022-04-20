@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "lint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,8 @@
   },
   "homepage": "https://github.com/mirek-t/adopt_me_js_u#readme",
   "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "8.5",
     "prettier": "^2.6.2"
   }
 }
