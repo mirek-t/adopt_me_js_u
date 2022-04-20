@@ -14,8 +14,14 @@ transpilator - e.g. Babel. Typescript, transpilation === transformation and comp
 ## Snippets
 
 ```bash
-
-npm
+npm version check
 # npm view <package_name> version
 # npm view <package_name> versions
+```
+
+```json
+exapmle of supported browsers [Link](https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb24sIG5vdCBkZWFk)
+{
+ "browserlist": ["last 2 version", "not dead"]
+}
 ```
