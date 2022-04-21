@@ -6,6 +6,7 @@ CND - constent delivery network
 transpilator - e.g. Babel. Typescript, transpilation === transformation and compilation. Conversion between languages version.
 SPA - single page application
 PWA - progressive web apps (SPA without net)
+Memoizing - cache function result instead call it twice with same parameters, only for pure function and limited combination of parameters value
 
 ## Tools
 
