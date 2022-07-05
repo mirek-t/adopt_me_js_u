@@ -54,7 +54,7 @@ class Details extends Component {
                 <h2>Would you like to adopt {name}?</h2>
                 <div className="buttons">
                   <a href="https://bit.ly/pet-adopt">Yes</a>
-                  <button onClick={this.toggleModal}>No</button>
+                  <button onClick={this.toggleModalgit}>No</button>
                 </div>
               </div>
             </Modal>
