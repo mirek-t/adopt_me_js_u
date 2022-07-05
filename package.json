@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "jest-environment-jsdom": "^28.1.2",
+    "jest-fetch-mock": "^3.0.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.3.0"
@@ -44,5 +45,11 @@
   "browserslist": [
     "last 2 version",
     "not dead"
-  ]
+  ],
+  "jest": {
+    "automock": false,
+    "setupFiles": [
+      "./src/setupJest"
+    ]
+  }
 }

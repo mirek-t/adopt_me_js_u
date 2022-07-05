@@ -24,7 +24,7 @@ class Carousel extends Component {
 
     return (
       <div className="carousel">
-        <img src={images[active]} alt="Animal" />
+        <img src={images[active]} alt="Animal" data-testid="hero" />
         <div className="carousel-smaller">
           {images.map((image, idx) => (
             <img
@@ -34,6 +34,7 @@ class Carousel extends Component {
               className={active === idx ? "avtive" : ""}
               onClick={this.handleIndexClick}
               data-index={idx}
+              data-testid={`thumbnail-${idx}`}
             />
           ))}
         </div>
